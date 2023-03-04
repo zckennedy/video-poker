@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })
-export class CardComponent implements OnInit{
+export class CardComponent implements OnInit {
   @Input() inputCard!:Card;
   imgPath:string='';
   statusClass: string = ""; // used for highlighting cards on hove
