@@ -1,0 +1,9 @@
+div {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  width: 100%;
+}
+
+div * {
+  display: inline-block;
+}

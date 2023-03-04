@@ -1,4 +1,5 @@
 export interface Card {
-  value: number;
-  suit:string;
+  value: string;
+  suit: string;
+  selected: boolean;
 }
