@@ -7,5 +7,11 @@ import { Card } from 'src/app/models/Card';
   styleUrls: ['./player-hand.component.css']
 })
 export class PlayerHandComponent {
-  card: Card = {value: "1", suit: "hearts", selected: false};
+  hand: Card[] = [
+    {value: "1", suit: "clubs", selected: false},
+    {value: "2", suit: "hearts", selected: false},
+    {value: "3", suit: "diamonds", selected: false},
+    {value: "4", suit: "spades", selected: false},
+    {value: "5", suit: "clubs", selected: false}
+  ];
 }
