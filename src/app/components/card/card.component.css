@@ -1,0 +1,41 @@
+#card-display {
+  width: calc(88vw / 5);
+  margin: 1vw;
+  aspect-ratio: 2.5/3.5;
+  background-color: white;
+  border-radius: 1vw;
+}
+
+.selected {
+  background-color: yellow !important;
+}
+
+.selected:hover {
+  background-color: aqua !important;
+}
+
+#card-display:hover {
+  background-color: royalblue;
+}
+
+img {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 23%;
+  margin-bottom: 23%;
+}
+
+h1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#top-value {
+  padding-top: 5%;
+}
+
+#bottom-value {
+  text-align: end;
+  padding-bottom: 5%;
+}
+
