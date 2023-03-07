@@ -3,6 +3,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Runner",
+      "request": "launch",
+      "mainClass": "com.zckennedy.SpringBootBackend.Runner",
+      "projectName": "SpringBootBackend"
+    },
+    {
       "name": "ng serve",
       "type": "pwa-chrome",
       "request": "launch",
