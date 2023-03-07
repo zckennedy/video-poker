@@ -1,6 +1,6 @@
 package com.zckennedy.SpringBootBackend;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 import com.zckennedy.SpringBootBackend.Model.Card;
@@ -21,7 +21,7 @@ public class Runner {
 
     // System.out.println(deck.size());
     Deck deck = new Deck();
-    deck.getCardList().forEach((card) -> {
+    deck.getCardList().forEach(card -> {
       System.out.println(card);
     });
     System.out.println(deck.getCardList().size());
@@ -31,7 +31,7 @@ public class Runner {
       System.out.println("DRAWN CARD = " + card);
     });
 
-    deck.getCardList().forEach((card) -> {
+    deck.getCardList().forEach(card -> {
       System.out.println(card);
     });
     System.out.println(deck.getCardList().size());

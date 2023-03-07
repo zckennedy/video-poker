@@ -37,7 +37,6 @@ public class Deck {
     return cardsDrawn;
   }
 
-  // reset
   public List<Card> getCardList() {
     return cardList;
   }
