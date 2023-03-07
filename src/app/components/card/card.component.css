@@ -1,7 +1,8 @@
 #card-display {
-  width: calc(88vw / 5);
+  width: calc(88vw / 5) !important;
   margin: 1vw;
-  aspect-ratio: 2.5/3.5;
+  aspect-ratio: 2.5/3.5 !important;
+  height:max-content;
   background-color: white;
   border-radius: 1vw;
 }

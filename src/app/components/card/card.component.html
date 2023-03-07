@@ -1,5 +1,5 @@
-<div [ngClass]="statusClass" (click)="toggleSelect(this.card)" id="card-display">
-  <h1 id="top-value">{{ card.value }}</h1>
-  <img src="{{path}}" width="50%">
-  <h1 id="bottom-value">{{ card.value }}</h1>
+<div [ngClass]=" this.statusClass " (click)=" this.toggleSelect(this.inputCard) " id="card-display">
+  <h1 id="top-value">{{ this.inputCard.value }}</h1>
+  <img src="{{ this.imgPath }}" width="50%">
+  <h1 id="bottom-value">{{ this.inputCard.value }}</h1>
 </div>
